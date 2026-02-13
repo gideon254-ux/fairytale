@@ -1,7 +1,7 @@
 // Service Worker for offline functionality and performance optimization
-const CACHE_NAME = 'project-tracker-v1.0.0';
-const STATIC_CACHE = 'project-tracker-static-v1.0.0';
-const DYNAMIC_CACHE = 'project-tracker-dynamic-v1.0.0';
+const CACHE_NAME = 'fairytale-v1.0.0';
+const STATIC_CACHE = 'fairytale-static-v1.0.0';
+const DYNAMIC_CACHE = 'fairytale-dynamic-v1.0.0';
 
 // Files to cache for offline functionality
 const STATIC_ASSETS = [

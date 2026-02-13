@@ -6,6 +6,7 @@ import { onAuthChange } from './services/authService';
 import { setUser, clearUser } from './store/slices/authSlice';
 import { ToastProvider, useToast } from './components/Toast';
 import { EncouragementChecker } from './hooks/useEncouragement';
+import BibleVersePopup from './components/BibleVersePopup';
 import Countdown from './components/Countdown';
 import FestiveBanner from './components/FestiveBanner';
 
@@ -141,6 +142,7 @@ function App() {
         <ToastProvider>
           <EncouragementChecker />
           <Countdown />
+          <BibleVersePopup />
           <AppContent />
         </ToastProvider>
       </Router>

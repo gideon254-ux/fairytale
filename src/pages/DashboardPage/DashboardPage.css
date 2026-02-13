@@ -38,10 +38,6 @@
   transition: color 0.2s;
 }
 
-.user-name:hover {
-  color: #667eea;
-}
-
 .logout-btn {
   padding: 8px 16px;
   background: #ff6b6b;
@@ -927,11 +923,6 @@
   .filter-search {
     min-width: auto;
   }
-}
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
 
 .logout-btn:hover {
